@@ -1,5 +1,3 @@
-# Sales-dashboard-
-
 # 📈 Superstore Sales & Profitability Analysis Dashboard
 
 ## 🎯 Project Overview
@@ -29,11 +27,16 @@ The dashboard is structured into three main sections to allow for top-down analy
 
 ## 🔗 Data Sources
 
-This project utilizes three interconnected data tables, demonstrating effective data modeling:
+This project uses the well-known **Sample Superstore Sales Dataset** for demonstration and educational purposes.
 
-1.  `Orders`: Contains all sales transaction details, including Sales, Profit, and Product details.
+* **Source File:** `Sample - Superstore.xls`
+* **Download Link:** [https://community.tableau.com/s/question/0D54T00000CWeX8SAL/sample-superstore-sales-excelxls](https://community.tableau.com/s/question/0D54T00000CWeX8SAL/sample-superstore-sales-excelxls)
+
+The three tables loaded into Power BI are:
+
+1.  `Orders`: Contains all sales transaction details.
 2.  `Returns`: A separate table listing only the `Order ID`s that were returned.
-3.  `People`: Maps `Region` to the responsible `Regional Manager` for accountability.
+3.  `People`: Maps `Region` to the responsible `Regional Manager`.
 
 ## ⚙️ Technical Details & Skills
 
@@ -50,3 +53,4 @@ This project utilizes three interconnected data tables, demonstrating effective 
 * **Key Insight:** The `Technology` category drives the highest sales but the `Office Supplies` category yields a better **Profit Ratio** due to lower discounts.
 * **Future Enhancements:** Implement a **What-If Parameter** to model the impact of different discount strategies on the final Profit Ratio.
 
+---
